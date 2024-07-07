@@ -52,7 +52,7 @@ const URL = "https://braccoi.pythonanywhere.com/"
                 const imagenActual = document.getElementById('imagen-actual');
                 if (imagen && !imagenSeleccionada) { // Verifica si imagen_url no está vacía y no se ha seleccionado una imagen
 
-                    imagenActual.src = 'https://www.pythonanywhere.com/user/braccoi/mysite/static/imagenes/' + imagen;                    
+                    imagenActual.src = 'https://www.pythonanywhere.com/user/braccoi/files/home/braccoi/mysite/static/imagenes/' + imagen;                    
                     
                     //Al subir al servidor, deberá utilizarse la siguiente ruta. USUARIO debe ser reemplazado por el nombre de usuario de Pythonanywhere
                     //imagenActual.src = 'https://www.pythonanywhere.com/user/USUARIO/files/home/USUARIO/mysite/static/imagenes/' + imagen_url;
