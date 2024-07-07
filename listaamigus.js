@@ -26,7 +26,7 @@ const URL = "https://braccoi.pythonanywhere.com/"
                     fila.innerHTML = '<td>' + producto.codigo + '</td>' +
                         '<td>' + producto.descripcion + '</td>' +
                         '<td align="right">' + producto.nombre_autor + '</td>' +
-                        '<td><img src=https://www.pythonanywhere.com/user/braccoi/files/home/USUARIO/mysite/static/imagenes/' + producto.imagen +' alt="Imagen del producto" style="width: 100px;"></td>';
+                        '<td><img src=https://www.pythonanywhere.com/user/braccoi/files/home/braccoi/mysite/static/imagenes/' + producto.imagen +' alt="Imagen del producto" style="width: 100px;"></td>';
                         
                         //Al subir al servidor, deberá utilizarse la siguiente ruta. USUARIO debe ser reemplazado por el nombre de usuario de Pythonanywhere
                         //'<td><img src=https://www.pythonanywhere.com/user/USUARIO/files/home/USUARIO/mysite/static/imagenes/' + producto.imagen_url +' alt="Imagen del producto" style="width: 100px;"></td>' + '<td align="right">' + producto.proveedor + '</td>';
